@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px){
+    .grid-padre{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .grid-padre{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
